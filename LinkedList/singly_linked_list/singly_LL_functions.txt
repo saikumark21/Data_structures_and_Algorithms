@@ -1,0 +1,13 @@
+File Name : singly_LL.c
+--------------------------------------
+Function Name : create_node
+Prototype     : struct Node *create_node(void);
+
+Description   : Creates a new node.
+
+Parameters    : void
+
+Returns       : On success, struct Node pointer of the newly created node.
+                On failure, NULL.
+
+--------------------------------------
