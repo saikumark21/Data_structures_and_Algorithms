@@ -9,5 +9,36 @@ Parameters    : void
 
 Returns       : On success, struct Node pointer of the newly created node.
                 On failure, NULL.
+--------------------------------------
+Function Name : get_data_from_usr
+Prototype     : unsigned int get_data_from_usr(struct Node *);
 
+Description   : gets input from the user(stdin buffer) and assigns them to the passed node members
+
+Parameters    : Address of the node
+
+Returns       : On success, returns 1.
+                On failure, returns 0.
+--------------------------------------
+Function Name : display_node_data
+Prototype     : void display_node_data(const struct Node *);
+
+Description   : displays the data of the passed node(stdout buffer).
+
+Parameters    : Address of the node.
+
+Returns       : On success, returns 1.
+                On failure, returns 0.
+--------------------------------------
+Function Name : insert_node
+Prototype     : struct Node *insert_node(struct Node **head, struct Node *node, unsigned short int position);
+
+Description   : Inserts the given node at position of the head link
+
+Parameters    : head ==> head pointer
+                node ==> node pointer(Node to be inserted)
+                position ==> Position of the pointer to be inserted
+
+Returns       : On success, returns head pointer
+                On failure, NULL.
 --------------------------------------

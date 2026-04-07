@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define DEBUG
+//#define DEBUG
 
 //Struct for Linked List
 struct Node{
@@ -14,5 +14,8 @@ struct Node{
 
 //Function declarations
 struct Node *create_node(void);
+unsigned int get_data_from_usr(struct Node *);
+unsigned int display_node_data(const struct Node *);
+struct Node *insert_node(struct Node **, struct Node *,unsigned short int);
 
 #endif
